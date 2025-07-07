@@ -27,7 +27,7 @@
             max-width: 768px;
         }
 
-        .header{
+        .header {
             background-color: aqua;
         }
 
@@ -63,6 +63,41 @@
             padding-bottom: 16px;
 
         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        caption {
+            padding: 15px;
+            font-weight: bold;
+            background-color: #2c3e50;
+            color: #fff;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 2px solid #ddd;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        td {
+            color: #2c3e50;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
     </style>
 </head>
 
@@ -87,7 +122,52 @@
         </section>
         <br>
         <br>
-
+        <section id="Price">
+            <table  >
+                <caption>Price list</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Period/Quarter</th>
+                        <th scope="col">Q1</th>
+                        <th scope="col">Q2</th>
+                        <th scope="col">Q3</th>
+                        <th scope="col">Q4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Hour</th>
+                        <td>2 &euro;</td>
+                        <td>3&euro;</td>
+                        <td>4 &euro;</td>
+                        <td>5 &euro;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Day</th>
+                        <td>10 &euro;</td>
+                        <td>11 &euro;</td>
+                        <td>12 &euro;</td>
+                        <td>13 &euro;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Week</th>
+                        <td>100 &euro;</td>
+                        <td>280 &euro;</td>
+                        <td>320 &euro;</td>
+                        <td>400 &euro;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Month</th>
+                        <td>1000 &euro;</td>
+                        <td>2800 &euro;</td>
+                        <td>3200 &euro;</td>
+                        <td>5000 &euro;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <br>
         <section>
             <hr>
             <h2>Contact me</h2>
